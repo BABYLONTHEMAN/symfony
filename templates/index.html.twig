@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+
+{% block body %}
+
+    {% for category in categories%}
+        {{ category.name}} <br>
+        {{ category.pass }} <br>
+
+
+    {% endfor %}
+
+{% endblock %}
